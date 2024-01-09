@@ -1,0 +1,49 @@
+	/* Global */
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Georgia',
+    sans-serif;
+    margin: 0;
+    background-color: #e7e7e7;
+}
+
+/* Title */
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: #5e6977;
+}
+
+/* Transaction */
+.transaction {
+    width: 400px;
+    height: 500px;
+    margin: 60px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+
+.form-body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+.contentsinfo{
+	color: #000000;
+	
+}

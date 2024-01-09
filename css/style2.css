@@ -1,0 +1,262 @@
+/*----------------------------------------------
+css settings for HTML div exactCenter 
+------------------------------------------------*/
+
+#main{
+    width:960px;
+    margin:50px auto;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+span{
+    color:red;
+}
+
+h1, h2, h3{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+
+h2{
+    background-color: #C0C0C0;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+    margin: -10px -40px;
+    padding: 15px;
+}
+
+hr{
+    border:0;
+    border-bottom:1px solid #ccc;
+	
+    margin: 10px -40px;
+    margin-bottom: 30px;
+}
+#main_wrapper{
+    width: 100%;
+}
+#container{
+    width: 100%;
+    float: left;
+    border-radius: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border: 1px solid #9CCDFD;
+	background-color: #808080;
+    padding: 10px 40px 25px;
+    margin-top: 22px;
+    margin-bottom: 40px;
+    margin-left: -42px;
+}
+
+input[type=text],input[type=password],select{
+    width: 50.5%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+	background-color: #F7F7F7;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family:Georgia;
+}
+#cvv-info {
+	margin-bottom: 10px;
+	} 
+
+.proceed-btn {
+    cursor: pointer;
+    font-size: 16px;
+    width: 15%;
+    border-color: transparent;
+    border-radius: 6px;
+}
+
+.proceed-btn {
+    margin-bottom: 10px;
+    background: #7dc855;
+}
+	
+	.proceed-btn a {
+    text-decoration: none;
+}
+
+
+.proceed-btn a {
+    color: #fff;
+}
+	
+button, .button{
+	background-color: #7dc855;
+	min-width: 100px;
+	border: none;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+	min-height: 50px;
+	font: 12px/15px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+	text-decoration: none;
+	border-radius: 6px;
+	border-color: transparent;
+}
+
+#buynow{
+    width: 50%;
+    background-color:#FFBC00;
+    color: white;
+    border: 2px solid #FFCB00;
+    padding: 10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+a#paynow{
+    /* width: 72%; */
+    background-color:#FFBC00;
+    color: white;
+    border: 2px solid #FFCB00;
+    padding: 15px 60px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius: 5px;
+    /* margin: 0 0 0 394px; */
+}
+#profile{
+    padding:50px;
+    border:1px dashed grey;
+    font-size:20px;
+    background-color:#DCE6F7;
+}
+
+#logout{
+    float:right;
+    padding:5px;
+    border:dashed 1px gray;
+}
+
+a{
+    text-decoration:none;
+    color: cornflowerblue;
+}
+
+i{
+    color: cornflowerblue;
+}
+/*-----------------------------------------------------------------
+css settings for right side advertisement
+------------------------------------------------------------------*/
+#formget{
+    float:right;
+}
+
+#product{
+
+    width: 272px;
+    height: 500px;
+    border:1px solid #E7E7E5;
+    float: left;
+    margin-left: 34px;
+}
+#product p{
+    text-align: center;
+    margin-top: 30px;
+}
+#product h3{
+    text-align: center;
+    margin-top: -12px;
+    margin-bottom: 25px;
+}
+
+#product a{
+    text-align: center;
+    margin: 0 0 0 80px;
+}
+
+#td-label{
+    text-align: right;
+    font-weight: bold;
+
+}
+#date-div{
+    width: 28%;
+    /* height: 20px; */
+    /* border: 1px solid red; */
+    float: left;
+}
+#year-div{
+    width: 30%;
+    /* height: 31px; */
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: -59px;
+	
+}
+#product input[type=submit]{
+    text-align: center;
+}
+
+
+
+#return {
+    width: 492px;
+    height: 350px;
+    float: left;
+    border-radius: 10px;
+    font-family: raleway;
+    border: 2px solid #ccc;
+    padding: 10px 40px 11px;
+}
+#return h3#success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    color: green;
+}
+#return P {
+    text-align: center;
+}
+#return .back_btn {
+    margin-top: 51px;
+    text-align: center;
+}
+#btn {
+    width: 100%;
+    background-color: #FFBC00;
+    color: white;
+    border: 2px solid #FFCB00;
+    padding: 10px 70px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration:none;
+    color: cornflowerblue;
+}
+img#paypal_logo {
+    float: right;
+    margin-right: 20px;
+    margin-top: 1%;
+    padding-bottom: 15px;
+}
+.success_main_heading{
+    margin-left: -32%;
+    margin-bottom: 7%;
+
+}
+#return h3#fail{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    color: red;
+}
+.red{
+    color:red;
+    font-weight: bold;
+}
+
